@@ -69,20 +69,7 @@ sudo python3 CDP.py ens3 -c 10000 -d 0.001
 5. Al recibir miles de entradas nuevas por segundo, el switch no puede gestionar su tabla CDP y degrada su rendimiento
 ```
 
----
 
-## 🌐 Topología de Red
-
-```
-[Víctima]
-   |  e0
-   | e0/1
-[Switch Secundario (rojo)] — Switch de distribución
-   | e0/2
-   | e0/1
-[Switch Principal (azul)] — Switch core
-   | e0/0
-[Router Central] — Gateway / DHCP
 ```
 
 ### Direccionamiento
